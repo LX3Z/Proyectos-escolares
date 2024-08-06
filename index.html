@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Punto Vet - Veterinaria</title>
+    <link rel="website icon" type="png"
+    href="">
     <!-- Incluye Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Incluye tu CSS personalizado -->
@@ -13,8 +15,8 @@
     <header class="bg-dark text-white py-3">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
-                <h1 class="mb-0">Punto Vet</h1>
-                <nav>
+                <h1 class="mb-0">Punto Vet</h1><br>
+                <div class=""><nav>
                     <ul class="nav">
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#home">Inicio</a>
@@ -28,7 +30,7 @@
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#contact">Contacto</a>
                         </li>
-                    </ul>
+                    </ul></div>
                 </nav>
             </div>
         </div>
@@ -40,36 +42,110 @@
             <p class="lead">Tu clínica veterinaria de confianza</p>
         </div>
     </section>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     
     <section id="services" class="py-5">
         <div class="container">
             <h2 class="text-center mb-4">Servicios</h2>
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Consulta Veterinaria</h3>
-                            <p class="card-text">Descripción del servicio.</p>
+                <div class="row justify-content-center">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/a1.jpg" alt=""
+                                width="180" height="180">
+                                <h3 class="card-title">Consultas Veterinarias y Atención Médica</h3>
+                                <p class="card-text">Servicios de diagnóstico <br>
+                                    - tratamiento y seguimiento de enfermedades.
+                                    <br>
+                                    -Vacunación y control de parásitos.
+                                    <br>
+                                    -Cirugías menores y mayores.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/a1.jpg" alt=""
+                                width="180" height="180">
+                                <h3 class="card-title">Aseo y belleza</h3>
+                                <p class="card-text">Baños y cortes de pelo. <br>
+                                -Limpieza de oídos y corte de uñas. <br>
+                                -Servicios de spa para mascotas. <br>
+                                -como masajes y tratamientos de piel.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/a1.jpg" alt=""
+                                width="180" height="180">
+                                <h3 class="card-title">Vacunación y Desparasitación:</h3>
+                                <p class="card-text">Programas de vacunación para cachorros y adultos. <br>
+                                - Desparasitación interna y externa regular. <br>
+                                - Consultas de prevención y cuidado.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/a1.jpg" alt=""
+                                width="180" height="180">
+                                <h3 class="card-title">Aseo y belleza</h3>
+                                <p class="card-text">Descripción del servicio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/a1.jpg" alt="" width="180" height="180">
+                                <h3 class="card-title">Aseo y belleza</h3>
+                                <p class="card-text">Descripción del servicio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/a1.jpg" alt="" width="180" height="180">
+                                <h3 class="card-title">Vacunación</h3>
+                                <p class="card-text">Descripción del servicio.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Vacunación</h3>
-                            <p class="card-text">Descripción del servicio.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Agrega más servicios según necesites -->
             </div>
-        </div>
-    </section>
+        </section>
+    
     
     <section id="about" class="bg-light py-5">
         <div class="container">
             <h2 class="text-center mb-4">Nosotros</h2>
-            <p class="text-center">Información sobre tu clínica veterinaria.</p>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolor, doloribus fuga voluptate perferendis, reprehenderit aliquam officia, facilis distinctio sed asperiores architecto repellat et nemo incidunt ad quidem minima sint.</p>
         </div>
     </section>
     
@@ -104,5 +180,10 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
