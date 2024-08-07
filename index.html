@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Punto Vet - Veterinaria</title>
     <link rel="website icon" type="png"
-    href="">
+    href="img/logo.png">
     <!-- Incluye Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Incluye tu CSS personalizado -->
@@ -15,7 +15,7 @@
     <header class="bg-dark text-white py-3">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
-                <h1 class="mb-0">Punto Vet</h1><br>
+                <h1 class="mb-0"><img src="img/logo.png" width="80" height="80" >Punto Pet </h1><br>
                 <div class=""><nav>
                     <ul class="nav">
                         <li class="nav-item">
@@ -35,13 +35,15 @@
             </div>
         </div>
     </header>
-    
-    <section id="home" class="hero bg-light text-center py-5">
-        <div class="container">
-            <h2 class="display-4">Bienvenido a Punto Vet</h2>
-            <p class="lead">Tu clínica veterinaria de confianza</p>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
-    </section>
+      </nav><br>
+    
 
     <div id="carouselExampleFade" class="carousel slide carousel-fade">
         <div class="carousel-inner">
@@ -64,6 +66,8 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    
+
     
     <section id="services" class="py-5">
         <div class="container">
@@ -114,8 +118,15 @@
                             <div class="card-body">
                                 <img src="img/a1.jpg" alt=""
                                 width="180" height="180">
-                                <h3 class="card-title">Aseo y belleza</h3>
-                                <p class="card-text">Descripción del servicio.</p>
+                                <h3 class="card-title">Adiestramiento y Comportamiento</h3>
+                                <p class="card-text">
+                                  -Clases de obediencia básica y avanzada.
+                                  <br>
+                                  -Entrenamiento para cachorros.
+                                  <br>
+                                  -Asesoramiento en problemas de comportamiento.
+                                  <br>
+                                  -Socialización de mascotas</p>
                             </div>
                         </div>
                     </div>
@@ -123,8 +134,17 @@
                         <div class="card">
                             <div class="card-body">
                                 <img src="img/a1.jpg" alt="" width="180" height="180">
-                                <h3 class="card-title">Aseo y belleza</h3>
-                                <p class="card-text">Descripción del servicio.</p>
+                                <h3 class="card-title"> Productos para Mascotas</h3>
+                                <p class="card-text">
+                                  -Alimentos premium y dietas especiales.
+                                  <br>
+                                  -Juguetes, ropa y accesorios.
+                                  <br>
+                                  -Camas y transportadoras.
+                                  <br>
+                                  -Productos de cuidado y limpieza.
+                                <br>
+                                 <br></p>
                             </div>
                         </div>
                     </div>
@@ -132,8 +152,15 @@
                         <div class="card">
                             <div class="card-body">
                                 <img src="img/a1.jpg" alt="" width="180" height="180">
-                                <h3 class="card-title">Vacunación</h3>
-                                <p class="card-text">Descripción del servicio.</p>
+                                <h3 class="card-title">Hospedaje y Guardería de Mascotas</h3>
+                                <p class="card-text">-Servicio de hospedaje para estancias cortas y largas.
+                                  <br>
+                                -Guardería diurna para socialización y actividad física.
+                                <br>
+                                -Atención personalizada y monitoreo constante.
+                                <br>
+                                -Alimentación y administración de medicamentos según indicaciones.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -147,11 +174,53 @@
             <h2 class="text-center mb-4">Nosotros</h2>
             <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolor, doloribus fuga voluptate perferendis, reprehenderit aliquam officia, facilis distinctio sed asperiores architecto repellat et nemo incidunt ad quidem minima sint.</p>
         </div>
-    </section>
+    </section><br>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        
+        <div class="col">
+          <div class="card h-100">
+            <center><img src="img/Ca1.jpg" width="180" height="180" ></center>
+            <div class="card-body">
+              <h5 class="card-title">Carlos</h5>
+              <p class="card-text">Excelente adiestramiento y cuidado estético
+                <br>
+                Llevo a mi perrita a las clases de adiestramiento y he visto una mejora increíble en su comportamiento. Los entrenadores son muy pacientes y conocen muy bien su trabajo. Además, la peluquería es fantástica; mi perrita siempre sale hermosa y bien cuidada. Me encanta que pueda encontrar todo en un solo lugar.</p>
+            </div>
+            <div class="card-footer">
+           calificacion 4/5</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <center><img src="img/Ca2.jpg" width="180" height="180" ></center>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Utilicé el servicio de hospedaje para mi perro durante mis vacaciones y quedé muy satisfecho. El personal se encargó de que recibiera todos sus cuidados y me mantuvieron informado sobre cómo estaba. Es un alivio saber que puedo contar con ellos para cuidar de mi mascota cuando no estoy. Sin duda, lo recomiendo.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary"> calificacion 4/5</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <center><img src="img/Ca3.jpg" width="180" height="180" ></center>
+            <div class="card-body">
+              <h5 class="card-title">Jhon</h5>
+              <p class="card-text">He llevado a mi gato, Luna, varias veces y siempre ha recibido el mejor trato. Los veterinarios son muy atentos y han realizado dos cirugías exitosas en ella. También me gusta que ofrezcan asesoramiento nutricional, lo que ha mejorado mucho la salud de Luna. Un lugar de confianza para el cuidado de nuestras mascotas.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated calificacion 4/5</small>
+            </div>
+          </div>
+        </div>
+      </div> <br>
     
     <section id="contact" class="py-5">
         <div class="container">
-            <h2 class="text-center mb-4">Contacto</h2>
+            <h2 class="text-center mb-4">Caja de Mesajes</h2>
             <form>
                 <div class="form-group">
                     <label for="name">Nombre:</label>
@@ -169,6 +238,16 @@
             </form>
         </div>
     </section>
+
+<div class="butom">  <center><button type="button" class="btn btn-primary btn-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+  <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"/>
+  <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"/>
+</svg>  Descargar </button>
+<button type="button" class="btn btn-secondary btn-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-android" viewBox="0 0 16 16">
+  <path d="M2.76 3.061a.5.5 0 0 1 .679.2l1.283 2.352A8.9 8.9 0 0 1 8 5a8.9 8.9 0 0 1 3.278.613l1.283-2.352a.5.5 0 1 1 .878.478l-1.252 2.295C14.475 7.266 16 9.477 16 12H0c0-2.523 1.525-4.734 3.813-5.966L2.56 3.74a.5.5 0 0 1 .2-.678ZM5 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2m6 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+</svg>   Descargar</button>
+</center></div>  <br>
+    
     
     <footer class="bg-dark text-white py-3">
         <div class="container text-center">

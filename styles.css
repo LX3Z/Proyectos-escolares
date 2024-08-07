@@ -1,6 +1,12 @@
 body{
     background-color: rgb(192, 240, 240);
 }
+
+.mb-0 img{
+   border-radius: 100px;
+}
+
+
 /* Estilo del héroe */
 
 .hero {
@@ -10,6 +16,10 @@ body{
     color: #fff;
 }
 
+.navbar bg-body-tertiary{
+    align-items:end;
+    flex-direction: row;
+}
 .hero h2 {
     font-size: 3rem;
 }
@@ -57,3 +67,7 @@ footer p {
     border-radius: 100px;
 }
 
+.butom{
+    flex: end(center, 10px 20px );
+    align-items: center;
+}
